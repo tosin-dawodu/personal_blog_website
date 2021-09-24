@@ -259,7 +259,92 @@ span .fab {
     font-size: 1.5rem;
   }
 }
+@media (min-width: 321px) and (max-width: 599px) {
+  .navlist {
+    margin: 0.5rem;
+  }
+  .sec-one {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec-one > div {
+    padding-right: 0px;
+    margin-top: 1rem;
+  }
+  .text h1 {
+    font-size: 24px;
+  }
 
+  #view {
+    position: absolute;
+    bottom: 0px;
+    background: white;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-bottom: 15px;
+  }
+  .about h1 {
+    text-align: center;
+  }
+  .about img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 21px;
+    padding: 0px;
+  }
+  .recipe {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 0rem;
+    max-width: 100vw;
+  }
+
+  .recipe-text {
+    border-bottom: 1px solid #909090;
+    display: flex;
+    flex: column;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+  }
+
+  .timer {
+    display: flex;
+    justify-content: stretch;
+    margin-top: 0.5rem;
+  }
+
+  .recipe-img img {
+    max-width: 100%;
+    border-radius: 0.625rem;
+    height: 200px;
+  }
+  span .fas {
+    font-size: 1rem;
+    margin-right: 6px;
+  }
+  span p {
+    font-size: 12px;
+    font-weight: 100;
+    color: #bbc4c2;
+  }
+  .entry {
+    display: flex;
+    flex-direction: column;
+    grid-auto-flow: column dense;
+    margin-top: 2rem;
+    background: #fdfeff;
+  }
+
+  .entry > section img {
+    height: 300px;
+    max-width: 100%;
+  }
+  span .fab {
+    margin-right: 2rem;
+    font-size: 1.5rem;
+  }
+}
 @media (min-width: 600px) and (max-width: 900px) {
   .recipe {
     display: flex;

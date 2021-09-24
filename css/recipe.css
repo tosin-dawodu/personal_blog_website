@@ -166,6 +166,50 @@ span .fab {
     font-size: 1.5rem;
   }
 }
+@media (min-width: 321px) and (max-width: 599px) {
+  .navlist {
+    margin: 0.5rem;
+  }
+  .banner {
+    max-width: 100vw;
+  }
+
+  .banner section img {
+    max-width: 100%;
+  }
+  .box4 {
+    justify-content: center;
+    align-self: end;
+    border-bottom: 2px solid red;
+    grid-area: 4/1/5/4;
+    text-align: center;
+  }
+
+  .template {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    padding: 1.25rem;
+    margin: 1.25rem;
+  }
+
+  .entry {
+    display: flex;
+    flex-direction: column-reverse;
+    grid-auto-flow: column dense;
+    margin-top: 2rem;
+    background: #fdfeff;
+  }
+
+  .entry > section img {
+    height: 300px;
+    max-width: 100%;
+  }
+  span .fab {
+    margin-right: 2rem;
+    font-size: 1.5rem;
+  }
+}
 @media (min-width: 600px) and (max-width: 900px) {
   .entry {
     display: flex;
