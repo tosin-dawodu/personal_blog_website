@@ -17,7 +17,7 @@
 }
 #view {
   position: absolute;
-  bottom: 10px;
+  bottom: 60px;
   left: 10px;
   margin: 0px;
 }
@@ -28,9 +28,11 @@
   max-width: 50vw;
   height: 100%;
 }
+figcaption {
+  font-size: 12px;
+  color: #bbc4c2;
+}
 .about-me {
-  /* border: 2px solid red; */
-  /* display: flex; */
   text-align: center;
   border-radius: 500px;
   width: 400px;
@@ -40,14 +42,12 @@
   padding-top: 10px;
 }
 .about-me img {
-  /* border: 2px solid blue; */
   border-radius: 100%;
   width: 200px;
 }
 .info {
   display: flex;
   flex-direction: column;
-  /* border: 2px solid green; */
   justify-content: center;
   align-items: center;
 }
